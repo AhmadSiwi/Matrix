@@ -90,12 +90,3 @@ class Matrix(object):
 				mat = mat[:-1] + ']'
 				sums = sums + (((-1)**i)*determinant(mat))
 			return sums
-
-
-
-
-
-
-
-
-
